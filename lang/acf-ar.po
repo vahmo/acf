@@ -53,7 +53,7 @@ msgstr "%s الإعدادات"
 
 #: pro/blocks.php:936
 msgid "This block contains no editable fields."
-msgstr ""
+msgstr "لا تحتوي هذه الكتلة على حقول قابلة للتحرير"
 
 #. translators: %s: an admin URL to the field group edit screen
 #: pro/blocks.php:942
@@ -649,13 +649,14 @@ msgstr "الموضع"
 
 #: pro/fields/class-acf-field-repeater.php:196
 msgid "Useful for fields with a large number of rows."
-msgstr ""
+msgstr "مفيد للحقول التي تحتوي على عدد كبير من الصفوف."
 
 #: pro/fields/class-acf-field-repeater.php:207
 #, fuzzy
 #| msgid "Posts Page"
-msgid "Rows Per Page"
 msgstr "صفحة المقالات"
+msgid "Rows Per Page"
+msgstr "صفوف لكل صفحة"
 
 #: pro/fields/class-acf-field-repeater.php:208
 #, fuzzy
@@ -691,13 +692,14 @@ msgstr "غير صالح"
 
 #: pro/fields/class-acf-field-repeater.php:1069
 msgid "There was an error retrieving the field."
-msgstr ""
+msgstr "حدث خطأ أثناء استرداد الحقل."
 
 #: pro/fields/class-acf-repeater-table.php:369
 #, fuzzy
 #| msgid "Drag to reorder"
 msgid "Click to reorder"
 msgstr "اسحب لإعادة الترتيب"
+msgstr "انقر لإعادة الطلب"
 
 #: pro/fields/class-acf-repeater-table.php:402
 msgid "Add row"
@@ -708,6 +710,8 @@ msgstr "إضافة صف"
 #| msgid "Duplicate"
 msgid "Duplicate row"
 msgstr "تكرار"
+msgstr "صف مكرر" 
+
 
 #: pro/fields/class-acf-repeater-table.php:404
 msgid "Remove row"
@@ -720,6 +724,8 @@ msgstr "إزالة صف"
 #| msgid "Current User"
 msgid "Current Page"
 msgstr "المستخدم الحالي"
+msgstr "الصفحه الحاليه"
+
 
 #: pro/fields/class-acf-repeater-table.php:456,
 #: pro/fields/class-acf-repeater-table.php:457
@@ -727,6 +733,8 @@ msgstr "المستخدم الحالي"
 #| msgid "Front Page"
 msgid "First Page"
 msgstr "الصفحة الرئسية"
+msgstr "الصفحة الأولى"
+
 
 #: pro/fields/class-acf-repeater-table.php:460,
 #: pro/fields/class-acf-repeater-table.php:461
@@ -734,6 +742,8 @@ msgstr "الصفحة الرئسية"
 #| msgid "Posts Page"
 msgid "Previous Page"
 msgstr "صفحة المقالات"
+msgstr "الصفحة السابقة"
+
 
 #. translators: 1: Current page, 2: Total pages.
 #: pro/fields/class-acf-repeater-table.php:470
@@ -747,6 +757,8 @@ msgstr ""
 #| msgid "Front Page"
 msgid "Next Page"
 msgstr "الصفحة الرئسية"
+msgstr "الصفحة التالية"
+
 
 #: pro/fields/class-acf-repeater-table.php:481,
 #: pro/fields/class-acf-repeater-table.php:482
@@ -754,6 +766,7 @@ msgstr "الصفحة الرئسية"
 #| msgid "Posts Page"
 msgid "Last Page"
 msgstr "صفحة المقالات"
+msgstr "الصفحة الأخيرة"
 
 #: pro/locations/class-acf-location-block.php:71
 #, fuzzy
@@ -772,6 +785,7 @@ msgstr "لا توجد صفحة خيارات"
 #: pro/admin/views/html-settings-updates.php:6
 msgid "Deactivate License"
 msgstr "تعطيل الترخيص"
+msgstr "إلغاء تنشيط الترخيص"
 
 #: pro/admin/views/html-settings-updates.php:6
 msgid "Activate License"
@@ -796,13 +810,14 @@ msgstr "مفتاح الترخيص"
 
 #: pro/admin/views/html-settings-updates.php:22
 msgid "Your license key is defined in wp-config.php."
-msgstr ""
+msgstr "تم تعريف مفتاح الترخيص الخاص بك في" "wp-config.php"
 
 #: pro/admin/views/html-settings-updates.php:29
 #, fuzzy
 #| msgid "Better Validation"
 msgid "Retry Activation"
 msgstr "تحقق افضل"
+msgstr "إعادة محاولة التنشيط"
 
 #: pro/admin/views/html-settings-updates.php:61
 msgid "Update Information"
@@ -819,6 +834,7 @@ msgstr "آخر نسخة"
 #: pro/admin/views/html-settings-updates.php:84
 msgid "Update Available"
 msgstr "هنالك تحديث متاح"
+msgstr "التحديث متاح"
 
 #: pro/admin/views/html-settings-updates.php:91
 msgid "No"
